@@ -13,8 +13,7 @@ RUN apt-get update -y && apt-get install -y \
     libpng-dev \
     libjpeg-dev \
     libfreetype6-dev \
-    libjpeg62-turbo-dev \
-    libpng-dev 
+    libjpeg62-turbo-dev
 
 # Composer
 COPY --from=composer:latest /usr/bin/composer /usr/bin/composer
