@@ -12,6 +12,9 @@ RewriteRule ^(.*)$ /public/$1 [L,QSA]
 # Run composer install
 composer install
 
+# Run npm install and npm run dev
+npm install && npm run dev
+
 # Create and update .env settings
 cp .env.example .env
 
