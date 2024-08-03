@@ -13,6 +13,8 @@
         "laravel/framework": "^10.10",
         "laravel/sanctum": "^3.3",
         "laravel/tinker": "^2.8",
+        "laracasts/flash": "^3.2",
+        "owen-it/laravel-auditing": "^13.0",
         "livewire/livewire": "^3.5",
         "nwidart/laravel-modules": "^10.0"
     },
